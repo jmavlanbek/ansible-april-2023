@@ -1,0 +1,7 @@
+- hosts: all
+  vars:
+    name: Janelle
+    team: Dev
+    company: Mimecast
+  tasks:
+  - debug: msg="Hello {{ name }}, you are a {{ team }}, you work for {{ company }}" 
